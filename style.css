@@ -1,0 +1,28 @@
+body{
+   
+}
+
+.fondo{
+    background-image: url(./img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header{
+    text-align: center;
+}
+.container{
+    position: relative;
+}
+.t1{
+    font-size: 12px;
+}
+.img1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.imgg1{
+    height: 210px;
+    width: 100%;
+}
