@@ -1,20 +1,63 @@
-body{
-   
-}
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Mr+Dafoe&family=Noto+Serif+Tamil&family=Source+Serif+Pro:wght@200&display=swap');
 
-.fondo{
+
+body{
+    display: block;
+    position: relative;
+    text-align: center;
+    background: #202124;
+    width: 60%;
+    height: 100%;
+}
+.pagina{
+    display: inline-block;
     background-image: url(./img/fondo.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    padding: 35px;
+    width: 600px;
+    height: 100%;
 }
 header{
     text-align: center;
+    font-family: 'Itim', cursive;
+}
+header h1{
+    display: inline;
+    position: relative;
+    padding-top:-50px;
+    padding-bottom: -50px;
+    border-top: double 7px;
+    border-bottom: double 7px;
+    bottom: -20px;
+    font-size: 65px;
+    text-align-last: justify;
+
+}
+header h2{
+    display: block;
+    position: relative;
+    border-bottom: 2px solid ;
+    padding-top: -20px ;
+    font-size: 30px;
+    text-align-last: justify;
 }
 .container{
     position: relative;
 }
 .t1{
-    font-size: 12px;
+    font-size: 10px;
+    position: relative;
+    margin: auto;
+    padding: auto;
+    border: auto;
+    
+
+}
+.t1 p{
+    text-align-last: justify;
+    font-family: 'Noto Serif Tamil', serif;
+    width: 250px;
 }
 .img1{
     position: absolute;
@@ -23,6 +66,116 @@ header{
 }
 
 .imgg1{
-    height: 210px;
-    width: 100%;
+    position: relative;
+    height: 230px;
+    width: 305px;
+    left: -10px;
+}
+.img1 h3{
+    position: relative;
+    font-size: 26px;
+    left: -10px;
+    font-family: 'Itim', cursive;
+    text-align: justify;
+    top:-15px
+}
+.container2{
+    position: relative;
+    display: block;
+    text-align: start;
+    height: 215px;
+    width: 295px;
+    border-radius: 15px;
+    border-style:double dotted;
+    padding-top: -30px;
+    margin-right: 15px;
+}
+.container2 h2{
+    position: relative;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 45px;
+    padding-bottom: -50px;
+    margin-bottom: -100px;
+    right: -12px;
+    top: -30px;
+}
+.container2 h3{
+    position: relative;
+    font-family: 'Mr Dafoe', cursive;
+    font-size:70px;
+    margin-bottom: -20px;
+    right: -12px;
+    top: -40px;
+    z-index: 10;
+}
+.container2 p{
+    font-size: 10px;
+    position: relative;
+    margin: auto;
+    padding: auto;
+    border: auto;
+    font-family: 'Noto Serif Tamil', serif;
+    top: -30px;
+    text-align-last: justify;
+    width: 220px;
+}
+.container2 img{
+    position: relative;
+    top: -240px;
+    left: 195px;
+    width: 85px;
+    height: 100px;
+}
+
+.container3{
+    position: relative;
+    display: block;
+    text-align: start;
+    height: 198px;
+    width: 315px;
+    top: -15px;
+    border-bottom: 1px solid;
+}
+.container3 h3{
+    font-family: 'Itim', cursive;
+    font-size: 19px;
+}
+.container3 p{
+    font-size: 10px;
+    position: relative;
+    font-family: 'Noto Serif Tamil', serif;
+    text-align-last: justify;
+    width: 170px;
+    top: -10px;
+    z-index: 10;
+}
+.container3 img{
+    position: relative;
+    height: 148px;
+    width: 150px;
+    left: 160px;
+    top: -155px;
+}
+.container4{
+    position: relative;
+    display: block;
+    width: 260px;
+    text-align:center;
+    right: -315px;
+    top: -471px;
+    padding-left: 15px;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+.container4 img {
+    padding-top: 10px;
+    width: 230px;
+    height: 100px;
+    border-bottom: 0.5px solid;
+}
+.container4 p {
+    font-family: 'Noto Serif Tamil', serif;
+    font-size: 10px;
+    text-align-last: justify;
+
 }
